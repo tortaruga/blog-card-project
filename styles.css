@@ -42,18 +42,12 @@ main {
     transition: .3s;
 }
 
-.card:hover h1 {
-    color: var(--yellow);
-}
-
 .card:hover {
     box-shadow: 15px 15px 0 var(--black);
 }
 
 svg {
     border-radius: 10px;
-    /* margin: auto; */
-    /* max-width: 336px; */
 }
 
 button {
@@ -78,6 +72,10 @@ h1 {
     margin: 0;
 }
 
+h1:hover {
+    color: var(--yellow);
+}
+
 .main-txt p {
   color: var(--grey);
   font-size: 15px;
@@ -98,5 +96,4 @@ h1 {
 .attribution {
     position: absolute;
     top: 96%;
-
 }
